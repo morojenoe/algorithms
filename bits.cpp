@@ -6,7 +6,7 @@ int max_bit[1 << 16];
 int min_bit[1 << 16];
 
 template<typename T>
-bool gb(const T &value, size_t id) {
+int gb(const T &value, int id) {
     return (value >> id) & 1;
 }
 
